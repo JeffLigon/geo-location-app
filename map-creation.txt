@@ -97,3 +97,10 @@ sed 's/.$//' lat-long-042920.txt | sed 's/"//' > lat-long-final-042920.txt
 
 You can use this file as bulk input on mapcustomizer.com.
 
+Follow this guide for creating a custom Google Map of the data.
+
+https://www.google.com/earth/outreach/learn/visualize-your-data-on-a-custom-map-using-google-my-maps/
+
+Research later how to do this with APIs.
+
+
