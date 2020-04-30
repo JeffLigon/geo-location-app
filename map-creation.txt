@@ -90,3 +90,10 @@ cut -d: -f 18-20 locations-042920.txt | cut -d '"' -f 5,7 | cut -d: -f 2-3 --out
 -22.9035," -47.0565,
 34.7725," 113.7266,
 46.1806," 12.7532,
+
+Use this sed command to trim out " and final comma.
+
+sed 's/.$//' lat-long-042920.txt | sed 's/"//' > lat-long-final-042920.txt
+
+You can use this file as bulk input on mapcustomizer.com.
+
